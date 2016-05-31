@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BoxBilling\n"
 "POT-Creation-Date: 2015-02-27 08:07+0000\n"
-"PO-Revision-Date: 2016-05-31 10:34+0900\n"
+"PO-Revision-Date: 2016-05-31 13:32+0900\n"
 "Last-Translator: changwoo <ep6tri@hotmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/boxbilling/boxbilling/"
 "language/ko/)\n"
@@ -589,13 +589,13 @@ msgid "Product pricing could not be determined. "
 msgstr "상품 가격을 정할 수 없습니다."
 
 msgid "Unknown Period selected for setup price"
-msgstr ""
+msgstr "설치 금액에 알 수 없는 기간이 선택됨"
 
 msgid "Product :id payment type is recurrent, but period was not selected"
 msgstr "상품 :id는 정기 결제 타입이지만, 기간을 선택하지 않습니다"
 
 msgid "Unknown Period selected for price"
-msgstr ""
+msgstr "금액에 알 수 없는 기간이 선택됨"
 
 msgid "Payment for invoice :serie:id [:title]"
 msgstr "송장 :serie:id [:title] 결제"
@@ -1041,22 +1041,22 @@ msgid "Email template code was not passed"
 msgstr ""
 
 msgid "Template code not passed"
-msgstr ""
+msgstr "템플릿 코드가 전달되지 않음"
 
 msgid "Receiver is not defined. Define to or to_client or to_staff parameter"
 msgstr ""
 
 msgid "From email address can not be empty"
-msgstr ""
+msgstr "발신 이메일 주소는 공백이 될 수 없습니다"
 
 msgid "Email template :code was not found"
 msgstr ""
 
 msgid "You have failed to login too many times. Contact support."
-msgstr ""
+msgstr "너무 많은 로그인 시도를 하였습니다. 지원팀에 문의하세요."
 
 msgid "You have latest version of BoxBilling. You do not need to update."
-msgstr ""
+msgstr "박스빌링 최신 버전을 사용하고 있습니다. 업데이트할 필요가 없습니다."
 
 msgid "Extension id was not passed"
 msgstr ""
@@ -1083,7 +1083,7 @@ msgid "Could not retrieve :ext information"
 msgstr ""
 
 msgid "Visit extension site for update information."
-msgstr ""
+msgstr "업데이트 정보를 확인하기 위해 확장 사이트 방문"
 
 msgid "BoxBilling core modules can not be managed"
 msgstr "박스 빌링 핵심 모듈은 조정되지 않습니다"
@@ -1132,10 +1132,10 @@ msgid "Path parameter is missing"
 msgstr ""
 
 msgid "Type parameter is missing"
-msgstr ""
+msgstr "타입 파라미터가 누락됨"
 
 msgid "To parameter is missing"
-msgstr ""
+msgstr "받는 사람 파라미터가 누락됨"
 
 msgid "File does not exist"
 msgstr ""
@@ -1144,7 +1144,7 @@ msgid "Directory already exists"
 msgstr ""
 
 msgid "Unknown item type"
-msgstr ""
+msgstr "알 수 없는 아이템 타입"
 
 msgid "Form name was not provided"
 msgstr ""
@@ -1156,7 +1156,7 @@ msgid "Form field type is not valid"
 msgstr ""
 
 msgid "This input type must have unique values"
-msgstr ""
+msgstr "이 입력 타입은 유일한 값을 가져야만 합니다"
 
 msgid "Form id was not passed"
 msgstr ""
@@ -1185,6 +1185,8 @@ msgid ""
 "Unfortunately field with this name exists in this form already. Form must "
 "have different field names."
 msgstr ""
+"송구하지만 이 이름으로 된 필드가 이미 폼에 존재합니다. 폼은 반드시 다른 필드 "
+"이름을 가져야 합니다."
 
 msgid " values must be unique"
 msgstr "값은 유일해야 합니다"
@@ -1193,7 +1195,7 @@ msgid " labels must be unique"
 msgstr "레이블은 유일해야 합니다"
 
 msgid "Textarea size options must be integer values"
-msgstr ""
+msgstr "Textarea 크기값은 반드시 정수여야 합니다"
 
 msgid "Form not found"
 msgstr ""
@@ -1211,7 +1213,7 @@ msgid "priority params is missing"
 msgstr ""
 
 msgid "Topic id is missing"
-msgstr ""
+msgstr "토픽 ID가 누락됨"
 
 msgid "Forum ID not passed"
 msgstr ""
@@ -1223,7 +1225,7 @@ msgid "Forum topic message not passed"
 msgstr ""
 
 msgid "Your message is too short"
-msgstr ""
+msgstr "당신의 메시지가 너무 짧습니다"
 
 msgid "Forum topic id missing"
 msgstr ""
@@ -1235,7 +1237,7 @@ msgid "Forum Topic ID not passed"
 msgstr ""
 
 msgid "Topic message not passed"
-msgstr ""
+msgstr "토픽 메시지가 전달되지 않음"
 
 msgid "Message ID not passed"
 msgstr ""
@@ -1333,6 +1335,8 @@ msgid ""
 "You must have at least one active order before you can add funds so you "
 "cannot proceed at the current time!"
 msgstr ""
+"자금을 더하기 전에 반드시 최소 하나의 활성화된 주문이 있어야 하므로 이번에는 "
+"더 진행할 수 없습니다!"
 
 msgid "Amount is not valid"
 msgstr "액수가 유효하지 않음"
@@ -1419,7 +1423,7 @@ msgid "Payment gateway :adapter was not found"
 msgstr ""
 
 msgid "Transaction invoice id is missing"
-msgstr ""
+msgstr "거래내역 송장 ID가 누락됨"
 
 msgid "Payment gateway id is missing"
 msgstr ""
@@ -1428,7 +1432,7 @@ msgid "Gateway was not found"
 msgstr ""
 
 msgid "Transaction :id not found."
-msgstr ""
+msgstr "거래내역 :id를 찾을 수 없습니다."
 
 msgid ""
 "Could not determine transaction origin. Transaction payment gateway is "
@@ -1442,10 +1446,10 @@ msgid "Payment adapter :adapter does not support action :action"
 msgstr ""
 
 msgid "Unknown transaction #:id type: :type"
-msgstr ""
+msgstr "알 수 없는 거래내역 #:id 타입: :type"
 
 msgid "Transaction :id is not associated with an invoice."
-msgstr ""
+msgstr "거래내역 :id는 송장과 연결되지 않았습니다."
 
 msgid "Invoice #:id not found"
 msgstr "송장 #:id을(를) 찾을 수 없습니다"
@@ -1470,12 +1474,14 @@ msgid "Only approved transaction can be processed"
 msgstr ""
 
 msgid "Transaction currency :code do not match required currency :required"
-msgstr ""
+msgstr "거래내역 통화 :code가 필요한 통화 :required와 일치하지 않습니다"
 
 msgid ""
 "Transaction status on payment gateway is Pending. Only Complete or Unknown "
 "transactions can be processed."
 msgstr ""
+"지불 게이트웨이에서 거래내역 상태가 보류중입니다. 완료되거나 알 수 없는 거래"
+"내역만이 처리될 수 있습니다."
 
 msgid "Client currency do not match invoice currency"
 msgstr ""
@@ -1574,7 +1580,7 @@ msgid "Only pending and failed setup orders can be deleted."
 msgstr ""
 
 msgid "This feature is available in BoxBilling PRO version."
-msgstr ""
+msgstr "이 기능은 박스빌링 프로에서 지원합니다."
 
 msgid "Currency could not be determined for order"
 msgstr ""
@@ -1595,7 +1601,7 @@ msgid "Error creating "
 msgstr ""
 
 msgid "Service "
-msgstr ""
+msgstr "서비스"
 
 msgid "Only active orders can be suspended"
 msgstr ""
@@ -1604,13 +1610,13 @@ msgid "Can not cancel "
 msgstr "취소할 수 없습니다"
 
 msgid "Title is required"
-msgstr ""
+msgstr "제목은 필수입니다"
 
 msgid "type"
-msgstr ""
+msgstr "타입"
 
 msgid "You have already created domain product."
-msgstr ""
+msgstr "도메인 상품을 이미 생성하셨습니다."
 
 msgid "Product type :type is not registered"
 msgstr ""
@@ -1652,7 +1658,7 @@ msgid "Can not remove product category with products"
 msgstr ""
 
 msgid "This promo code already exists."
-msgstr ""
+msgstr "프로모션 코드가 이미 존재합니다."
 
 msgid "Queue message id is missing"
 msgstr ""
@@ -1733,16 +1739,16 @@ msgid "Order :id has no active service"
 msgstr ""
 
 msgid "TLD is missing"
-msgstr ""
+msgstr "TLD가 누락되었습니다"
 
 msgid "TLD not found"
-msgstr ""
+msgstr "TLD를 찾을 수 없습니다"
 
 msgid "Tld already registered"
-msgstr ""
+msgstr "TLD가 이미 등록되었습니다"
 
 msgid "TLD registrar id is missing"
-msgstr ""
+msgstr "TLD 등록 ID가 누락되었습니다"
 
 msgid "Registration price is missing"
 msgstr ""
@@ -1751,7 +1757,7 @@ msgid "Renewal price is missing"
 msgstr ""
 
 msgid "Transfer price is missing"
-msgstr ""
+msgstr "전환 금액이 누락되었습니다"
 
 msgid "Registrar code not passed"
 msgstr ""
@@ -1775,7 +1781,7 @@ msgid "Domain order is not activated"
 msgstr ""
 
 msgid "Tld is required"
-msgstr ""
+msgstr "TLD는 필수입니다"
 
 msgid "Sld is required"
 msgstr ""
@@ -1790,7 +1796,7 @@ msgid "Domain is not available."
 msgstr ""
 
 msgid "TLD is not active."
-msgstr ""
+msgstr "TLD가 활성화되지 않았습니다."
 
 msgid "Domain can not be transferred."
 msgstr ""
@@ -1822,10 +1828,10 @@ msgid "Domain name is required."
 msgstr ""
 
 msgid "Transfer domain type (tld) is required."
-msgstr ""
+msgstr "도메인 전환 타임 (tld)가 필요합니다."
 
 msgid "Transfer domain name (sld) is required."
-msgstr ""
+msgstr "도메인 전환 이름 (sld)가 필요합니다"
 
 msgid ":domain can not be transferred!"
 msgstr ":domain은 이전될 수 없습니다!"
@@ -1837,7 +1843,7 @@ msgid "Domain registration sld parameter missing."
 msgstr ""
 
 msgid "Years parameter is missing for domain configuration."
-msgstr ""
+msgstr "도메인 설정을 위한 연 파라미터가 누락됨"
 
 msgid ":tld can be registered for at least :years years"
 msgstr ":tld는 적어도 :years years 동안 등록될 수 있습니다"
@@ -2006,7 +2012,7 @@ msgid "No servers selected for import."
 msgstr ""
 
 msgid "Select product for orders."
-msgstr ""
+msgstr "주문을 위해 생품 선택"
 
 msgid ""
 "Product is not configured completely. Please provide solusvm node in product "
@@ -2025,7 +2031,7 @@ msgid "No clients found on SolusVM server."
 msgstr ""
 
 msgid "Virtual private server :title"
-msgstr ""
+msgstr "가상 개인 서버 :title"
 
 msgid "Please enter VPS hostname."
 msgstr ""
@@ -2082,7 +2088,7 @@ msgid "Hostname must not be empty"
 msgstr ""
 
 msgid "Template must not be empty"
-msgstr ""
+msgstr "템플릿은 비어서는 안 됩니다"
 
 msgid "Password must be longer than 4 symbols"
 msgstr ""
@@ -2100,7 +2106,7 @@ msgid ":product for :domain"
 msgstr ":domain의 :product"
 
 msgid "Unknown domain type."
-msgstr ""
+msgstr "알 수 없는 도메인 타입."
 
 msgid "Akismet API Key not set."
 msgstr ""
@@ -2127,30 +2133,33 @@ msgid ""
 "To use reCAPTCHA you must get an API key from <a href='https://www.google."
 "com/recaptcha/admin/create'>https://www.google.com/recaptcha/admin/create</a>"
 msgstr ""
+"reCAPTCHA를 사용하려면 반드시 <a href='https://www.google.com/recaptcha/"
+"admin/create'>https://www.google.com/recaptcha/admin/create</a>에서 API 키를 "
+"발급받아야 합니다"
 
 msgid "Captcha verification failed."
 msgstr ""
 
 msgid "Your Username is blacklisted in global database"
-msgstr ""
+msgstr "당신의 사용자 이름이 전역 데이터베이스에 블랙리스트 처리되어 있습니다"
 
 msgid "Your Email is blacklisted in global database"
-msgstr ""
+msgstr "당신의 이메일이 전역 데이터베이스에서 블랙리스트 처리되어 있습니다"
 
 msgid "Your IP is blacklisted in global database"
-msgstr ""
+msgstr "당신의 IP가 전역 데이터베이스에서 블랙리스트 처리되어 있습니다"
 
 msgid "Administrator account already exists"
 msgstr ""
 
 msgid "You are not allowed to login to admin area from :ip address"
-msgstr ""
+msgstr "당신은 :ip 주소로부터 관리자 영역에 로그인하도록 허락받지 않았습니다."
 
 msgid "Check your login details"
 msgstr ""
 
 msgid "This administrator account is protected and can not be removed"
-msgstr ""
+msgstr "관리자 계정은 보호되어 있으므로 제거할 수 없습니다"
 
 msgid "Staff member with email :email is already registered"
 msgstr ""
@@ -2162,10 +2171,10 @@ msgid "Can not remove group which has staff members"
 msgstr ""
 
 msgid "Ticket not found"
-msgstr ""
+msgstr "티켓 찾을 수 없음"
 
 msgid "Ticket can not be reopened."
-msgstr ""
+msgstr "티켓은 다시 열릴 수 없습니다."
 
 msgid "Please enter your message"
 msgstr ""
@@ -2174,7 +2183,7 @@ msgid "Can not remove helpdesk which has tickets"
 msgstr ""
 
 msgid "We have already received this request."
-msgstr ""
+msgstr "이미 이 요청을 접수했습니다."
 
 msgid "Identity is not valid"
 msgstr ""
@@ -2198,43 +2207,49 @@ msgid ""
 "You have reached free version limit. Upgrade to PRO version of BoxBilling if "
 "you want this limit removed."
 msgstr ""
+"무료 버전 한도에 이르렀습니다. 이 제한을 해제하려면 박스빌링 프로 버전으로 업"
+"그레이드하세요."
 
 msgid "Theme code is missing"
-msgstr ""
+msgstr "테마 코드가 누락됨"
 
 msgid "Theme preset name is missing"
-msgstr ""
+msgstr "테마 프리셋 이름이 누락됨"
 
 msgid ""
 "Theme \":name\" assets folder is not writable. Files can not be uploaded and "
 "settings can not be saved. Set folder permissions to 777"
 msgstr ""
+"테마 \":name\" 에셋 폴더가 쓰기 가능하지 않습니다. 파일을 업로드할 수 없고 설"
+"정이 저장되지 않습니다. 폴더 권한을 777로 맞춰 주세요"
 
 msgid ""
 "Theme \":name\" assets folder is not writable. Set folder :folder "
 "permissions to 777"
 msgstr ""
+"테마 \":name\" 에셋 폴더가 쓰기 가능하지 않습니다. 폴더 :folder의 권한을 777"
+"로 맞춰 주세요"
 
 msgid "Theme \":name\" is not configurable"
-msgstr ""
+msgstr "테마 \":name\"가 설정 가능하지 않습니다"
 
 msgid "Theme \":name\" does not exists"
-msgstr ""
+msgstr "테마 \":name\"가 존재하지 않습니다"
 
 msgid "Error uploading file :file Error code: :error"
 msgstr ""
 
 msgid "Theme was not found in path :path"
-msgstr ""
+msgstr "테마가 경로 :path에서 발견되지 않음"
 
 msgid "Unable to decode theme manifest file :file"
-msgstr ""
+msgstr "메니페스트 파일 :file 로부터 테마를 디코드할 수 없음"
 
 msgid "Wysiwyg settings"
-msgstr ""
+msgstr "위지윅(WYSIWYG) 설정"
 
 msgid "Home"
-msgstr ""
+msgstr "홈"
 
 msgid "Settings"
 msgstr "설정"
@@ -2246,7 +2261,7 @@ msgid "Default editor"
 msgstr ""
 
 msgid "Update"
-msgstr ""
+msgstr "업데이트"
 
 msgid "Reset password"
 msgstr ""
@@ -2255,7 +2270,7 @@ msgid "Email Address"
 msgstr ""
 
 msgid "Your email address"
-msgstr ""
+msgstr "이메일 주소"
 
 msgid "You must fill in your email."
 msgstr "이메일 항목을 채워 주세요."
@@ -2299,7 +2314,7 @@ msgid "Help"
 msgstr "도움말"
 
 msgid "Forum"
-msgstr ""
+msgstr "포럼"
 
 msgid "Report bug"
 msgstr ""
@@ -2311,7 +2326,7 @@ msgid "Enter search text.."
 msgstr ""
 
 msgid "License settings"
-msgstr ""
+msgstr "라이센스 설정"
 
 msgid "Prefix"
 msgstr ""
@@ -2323,24 +2338,26 @@ msgid "Plugin"
 msgstr ""
 
 msgid "Validate IP"
-msgstr ""
+msgstr "IP 검증"
 
 msgid "Validate Hostname"
-msgstr ""
+msgstr "호스트 이름 검증"
 
 msgid "Validate Version"
-msgstr ""
+msgstr "버전 검증"
 
 msgid "Validate Path"
-msgstr ""
+msgstr "경로 검증"
 
 msgid "License plugins"
-msgstr ""
+msgstr "라이센스 플러그인들"
 
 msgid ""
 "BoxBilling gives you ability to provide your own license generation script. "
 "Follow instructions bellow to install new license plugin"
 msgstr ""
+"박스빌링은 당신만의 라이센스 생성 스크립트를 작성할 수 있도록 기능을 지원합니"
+"다. 다음 지시를 따라 새로운 라이센스 플러그인을 설치하세요"
 
 msgid "License plugin is PHP class \"License_PluginName\" with one method"
 msgstr ""
@@ -2348,22 +2365,22 @@ msgstr ""
 "니다"
 
 msgid "Take a look at default plugin at"
-msgstr ""
+msgstr "다음 경로에서 기본 플러그인을 살펴보세요"
 
 msgid "Create your plugin and place it to"
-msgstr ""
+msgstr "당신의 플러그인을 제작한 후 다음 경로에 비치하세요 "
 
 msgid "BoxBilling will automatically detect new plugin"
-msgstr ""
+msgstr "박스빌링은 자동으로 새로운 플러그인을 탐지할 것입니다"
 
 msgid "Read"
-msgstr ""
+msgstr " "
 
 msgid "BoxBilling documentation"
 msgstr "박스빌링 문서"
 
 msgid "for more information."
-msgstr ""
+msgstr "에 더 많은 정보가 있습니다"
 
 msgid "Client settings"
 msgstr ""
@@ -2387,7 +2404,7 @@ msgid "Required fields"
 msgstr ""
 
 msgid "Select required fields"
-msgstr ""
+msgstr "필수 항목을 너택"
 
 msgid "Last Name"
 msgstr "성"
@@ -2420,7 +2437,7 @@ msgid "Required"
 msgstr ""
 
 msgid "Update profile"
-msgstr ""
+msgstr "프로필 갱신"
 
 msgid "Gateway"
 msgstr ""
@@ -2461,7 +2478,7 @@ msgid "Enter new domain name to register"
 msgstr ""
 
 msgid "Check"
-msgstr ""
+msgstr "확인"
 
 msgid "I want to use my nameservers"
 msgstr ""
@@ -2491,7 +2508,7 @@ msgid "Product"
 msgstr "상품"
 
 msgid "Support ticket"
-msgstr ""
+msgstr "지원 티켓"
 
 msgid "Staff member"
 msgstr "스태프 회원"
@@ -2521,7 +2538,7 @@ msgid "Select icon and click OK"
 msgstr ""
 
 msgid "Top level domains"
-msgstr ""
+msgstr "최상위 도메인"
 
 msgid "New top level domain"
 msgstr ""
@@ -2544,7 +2561,7 @@ msgid ""
 msgstr ""
 
 msgid "TLD"
-msgstr ""
+msgstr "TLD"
 
 msgid "Registration"
 msgstr ""
@@ -2553,7 +2570,7 @@ msgid "Renew"
 msgstr ""
 
 msgid "Transfer"
-msgstr ""
+msgstr "이체"
 
 msgid "Operations"
 msgstr ""
@@ -2577,7 +2594,7 @@ msgid "Setup new TLD prices and properties"
 msgstr ""
 
 msgid "Tld"
-msgstr ""
+msgstr "TLD"
 
 msgid "Registration price"
 msgstr ""
@@ -2586,7 +2603,7 @@ msgid "Renewal price"
 msgstr ""
 
 msgid "Transfer price"
-msgstr ""
+msgstr "전환 금액"
 
 msgid "Minimum years of registration"
 msgstr ""
@@ -2612,7 +2629,7 @@ msgid ""
 msgstr ""
 
 msgid "Update nameservers"
-msgstr ""
+msgstr "네임서버 갱신"
 
 msgid "Adding new domain registrar"
 msgstr ""
@@ -2638,7 +2655,7 @@ msgid "For developers. Read"
 msgstr "개발자에게:"
 
 msgid "to learn how to create your own domain registrar."
-msgstr ""
+msgstr "당신의 도메인 등록을 생성하는 방법을 알아보세요"
 
 msgid "Code"
 msgstr ""
@@ -2653,7 +2670,7 @@ msgid "Transactions"
 msgstr "거래 내역"
 
 msgid "Transaction"
-msgstr ""
+msgstr "거래내역"
 
 msgid "Manage"
 msgstr ""
@@ -2665,7 +2682,7 @@ msgid "Notes"
 msgstr ""
 
 msgid "Transaction details"
-msgstr ""
+msgstr "거래내역 상세"
 
 msgid ""
 "If you are sure that this transaction is valid you can update transaction "
@@ -2685,13 +2702,13 @@ msgid "Payment gateway"
 msgstr "지불 게이트웨이"
 
 msgid "Transaction ID on payment gateway"
-msgstr ""
+msgstr "지불 게이트웨이에서 거래내역 ID"
 
 msgid "Transaction status on payment gateway"
-msgstr ""
+msgstr "지불 게이트웨이에서 거래내역 상태"
 
 msgid "Status"
-msgstr ""
+msgstr "상태"
 
 msgid "IP"
 msgstr ""
@@ -2703,7 +2720,7 @@ msgid "Received at"
 msgstr ""
 
 msgid "Updated at"
-msgstr ""
+msgstr "갱신 일자"
 
 msgid "Process"
 msgstr ""
@@ -2718,25 +2735,25 @@ msgid "Currency"
 msgstr ""
 
 msgid "Transaction processing information"
-msgstr ""
+msgstr "거래내역 처리 정보"
 
 msgid "Payment Gateway"
 msgstr "지불 게이트웨이"
 
 msgid "Validate IPN"
-msgstr ""
+msgstr "IPN 검증"
 
 msgid "Transaction information on payment gateway"
-msgstr ""
+msgstr "지불 게이트웨이에서 거래내역 정보"
 
 msgid "Transaction type"
-msgstr ""
+msgstr "거래내역 타입"
 
 msgid "Transaction status on Payment Gateway"
-msgstr ""
+msgstr "지불 게이트웨이에서 거래내역 상태"
 
 msgid "Transaction ID on Payment Gateway"
-msgstr ""
+msgstr "지불 게이트웨이에서 거래내역 ID"
 
 msgid "Note about this transaction"
 msgstr ""
@@ -2792,10 +2809,10 @@ msgid "Example price"
 msgstr ""
 
 msgid "The list is empty"
-msgstr ""
+msgstr "목록이 없습니다"
 
 msgid "Update Rates"
-msgstr ""
+msgstr "비율 갱신"
 
 msgid "Format"
 msgstr ""
@@ -2819,6 +2836,8 @@ msgid ""
 "The list is empty. Depending on modules enabled email templates will be "
 "inserted after first event occurrence."
 msgstr ""
+"목록이 없습니다. 모듈에 따라 활성화된 이메일 템플릿이 5분 간격으로 삽입될 것"
+"입니다."
 
 msgid "Configure email options"
 msgstr "이메일 설정"
@@ -2865,13 +2884,13 @@ msgid "SMTP Security"
 msgstr ""
 
 msgid "Update email settings"
-msgstr ""
+msgstr "이메일 설정 갱신"
 
 msgid "Send test email to staff members"
 msgstr ""
 
 msgid "Where I can use new email template?"
-msgstr ""
+msgstr "어디에서 새 이메일 템플릿을 사용할 수 있나요?"
 
 msgid "Newly created email templates can be used in custom event hooks."
 msgstr ""
@@ -2883,7 +2902,7 @@ msgid "Action code"
 msgstr "액션 코드"
 
 msgid "Subject"
-msgstr ""
+msgstr "제목"
 
 msgid "Content"
 msgstr "콘텐트"
@@ -2904,7 +2923,7 @@ msgid "Give points for posting in selected forums"
 msgstr ""
 
 msgid "Message"
-msgstr ""
+msgstr "메시지"
 
 msgid "Incorrect please try again"
 msgstr ""
@@ -2937,10 +2956,10 @@ msgid "Add note"
 msgstr "노트 추가"
 
 msgid "Domain configuration"
-msgstr ""
+msgstr "도메인 설정"
 
 msgid "Subdomain"
-msgstr ""
+msgstr "서브도메인"
 
 msgid "Host my own domain"
 msgstr ""
@@ -2964,10 +2983,10 @@ msgid "Client groups"
 msgstr ""
 
 msgid "Valid period"
-msgstr ""
+msgstr "유효한 기간"
 
 msgid "Usage"
-msgstr ""
+msgstr "사용법"
 
 msgid "Create new coupon code"
 msgstr ""
@@ -3000,7 +3019,7 @@ msgid "Max uses (zero for unlimited)"
 msgstr ""
 
 msgid "Valid time (Leave blank for undefined time)"
-msgstr ""
+msgstr "유효한 타임 (미정인 경우 공백으로)"
 
 msgid "Products (Select none to apply to all products)"
 msgstr ""
@@ -3015,7 +3034,7 @@ msgid "Processing payment ..."
 msgstr ""
 
 msgid "Thank you for your patience."
-msgstr ""
+msgstr "기다려 주셔서 감사합니다."
 
 msgid "Redirecting to payment gateway.."
 msgstr ""
@@ -3035,7 +3054,7 @@ msgid "New hosting plan"
 msgstr "새 호스팅 플랜"
 
 msgid "Servers"
-msgstr ""
+msgstr "서버"
 
 msgid "Server manager"
 msgstr ""
@@ -3053,7 +3072,7 @@ msgid "Bandwidth"
 msgstr "대역폭"
 
 msgid "Unique name to identify this server"
-msgstr ""
+msgstr "이 서버를 구분하기 위한 유일한 이름"
 
 msgid "Hostname"
 msgstr ""
@@ -3087,7 +3106,7 @@ msgid "ns4.yourdomain.com"
 msgstr ""
 
 msgid "Username"
-msgstr ""
+msgstr "사용자 이름"
 
 msgid "Login username to your server: root/reseller"
 msgstr ""
@@ -3102,7 +3121,7 @@ msgid "Access Hash (Instead of password for cPanel servers)"
 msgstr "접속 해시 (cPanel 서버의 패스워드 대신)"
 
 msgid "Use Secure connection"
-msgstr ""
+msgstr "암호화 연결 사용"
 
 msgid "Add server"
 msgstr "서버 추가"
@@ -3117,7 +3136,7 @@ msgid ""
 msgstr ""
 
 msgid "Unique name to identify this hosting plan"
-msgstr ""
+msgstr "이 호스팅 플랜을 구분하기 위한 유일한 이름"
 
 msgid "Disk quota (MB)"
 msgstr ""
@@ -3129,13 +3148,13 @@ msgid "Create hosting plan"
 msgstr "호스팅 플랜 생성"
 
 msgid "Tax rules"
-msgstr ""
+msgstr "세금 규칙"
 
 msgid "New tax rule"
 msgstr ""
 
 msgid "Tax settings"
-msgstr ""
+msgstr "세금 설정"
 
 msgid "EU VAT"
 msgstr ""
@@ -3144,7 +3163,7 @@ msgid "State/Region"
 msgstr ""
 
 msgid "Tax rate"
-msgstr ""
+msgstr "과세율"
 
 msgid "Actions"
 msgstr "액션들"
@@ -3169,7 +3188,7 @@ msgid ""
 msgstr ""
 
 msgid "Tax title"
-msgstr ""
+msgstr "세금 제목"
 
 msgid "sales Tax"
 msgstr ""
@@ -3187,7 +3206,7 @@ msgid "Example module title"
 msgstr ""
 
 msgid "This is an example extension content"
-msgstr ""
+msgstr "이는 예제 확장 본문입니다"
 
 msgid "Parameters from Controller"
 msgstr ""
@@ -3291,6 +3310,8 @@ msgid ""
 "To change license key, change <em>BB_LICENSE</em> value in <em>bb-config."
 "php</em> file"
 msgstr ""
+"라이센스 키를 변경하려면 <em>bb-config.php</em>파일의 <em>BB_LICENSE</em> 값"
+"을 변경하세요"
 
 msgid "Edit bb-config.php file"
 msgstr ""
@@ -3338,7 +3359,7 @@ msgid "Plugin name"
 msgstr ""
 
 msgid "Update configuration fields"
-msgstr ""
+msgstr "설정 필드 갱신"
 
 msgid "Support"
 msgstr "지원"
@@ -3368,7 +3389,7 @@ msgid "First Name"
 msgstr ""
 
 msgid "You are"
-msgstr ""
+msgstr "당신은 "
 
 msgid "Address 2"
 msgstr ""
@@ -3386,7 +3407,7 @@ msgid "Password confirm"
 msgstr "패스워드 확인"
 
 msgid "YouHosting settings"
-msgstr ""
+msgstr "YouHosting 설정"
 
 msgid "Advanced"
 msgstr "고급"
@@ -3401,10 +3422,10 @@ msgid "Api Key"
 msgstr "API 키"
 
 msgid "Update settings"
-msgstr ""
+msgstr "설정 갱신"
 
 msgid "Check connection"
-msgstr ""
+msgstr "연결 확인"
 
 msgid "Import clients"
 msgstr "클라이언트 가져오기"
@@ -3422,7 +3443,7 @@ msgid "Dashboard"
 msgstr "대시보드"
 
 msgid "Tickets waiting your reply"
-msgstr ""
+msgstr "티켓이 당신의 응답을 기다리고 있습니다"
 
 msgid "Id"
 msgstr "ID"
@@ -3431,13 +3452,13 @@ msgid "Help desk"
 msgstr "헬프 데스크"
 
 msgid "Submitted"
-msgstr ""
+msgstr "제출 일자"
 
 msgid "Reply"
 msgstr ""
 
 msgid "Profile"
-msgstr ""
+msgstr "프로필"
 
 msgid "Balance"
 msgstr "잔고"
@@ -3470,22 +3491,22 @@ msgid "Tickets"
 msgstr "티켓"
 
 msgid "New ticket"
-msgstr ""
+msgstr "새 티켓"
 
 msgid "All tickets"
 msgstr "모든 티켓"
 
 msgid "Open"
-msgstr ""
+msgstr "열림"
 
 msgid "On Hold"
-msgstr ""
+msgstr "보류"
 
 msgid "Recent orders"
-msgstr ""
+msgstr "최근 주문"
 
 msgid "Recent emails"
-msgstr ""
+msgstr "최근 이메일"
 
 msgid "ago"
 msgstr "전"
@@ -3509,13 +3530,13 @@ msgid "Error"
 msgstr ""
 
 msgid "Type"
-msgstr ""
+msgstr "타입"
 
 msgid "API"
 msgstr "API"
 
 msgid "Gravatar"
-msgstr ""
+msgstr "그라바타"
 
 msgid "Profile updated"
 msgstr ""
@@ -3540,7 +3561,7 @@ msgid ""
 msgstr ""
 
 msgid "Warning! Resetting the key will break existing applications using it."
-msgstr ""
+msgstr "경고! 키를 재설정하면 사용 중인 모든 어플리케이션이 중단됩니다!"
 
 msgid "Generate new key"
 msgstr "새 키 생성"
@@ -3575,7 +3596,7 @@ msgid "Can reopen"
 msgstr ""
 
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "이용 약관"
 
 msgid "Back to Homepage"
 msgstr ""
@@ -3596,7 +3617,7 @@ msgid "Group"
 msgstr "그룹"
 
 msgid "Check login IP"
-msgstr ""
+msgstr "로그인 IP 확인"
 
 msgid "Allowed IPs. One per line"
 msgstr ""
@@ -3617,7 +3638,7 @@ msgid "SolusVM configuration"
 msgstr ""
 
 msgid "Virtualization type"
-msgstr ""
+msgstr "가상화 타입"
 
 msgid "Node"
 msgstr ""
@@ -3676,7 +3697,7 @@ msgid "Posts"
 msgstr ""
 
 msgid "Topics"
-msgstr ""
+msgstr "토픽"
 
 msgid "Forums"
 msgstr ""
@@ -3691,7 +3712,7 @@ msgid "Replies"
 msgstr ""
 
 msgid "Views"
-msgstr ""
+msgstr "조회수"
 
 msgid "Sticky"
 msgstr ""
@@ -3727,7 +3748,7 @@ msgid "Membership service does not have any configuration options"
 msgstr ""
 
 msgid "Recent posts"
-msgstr ""
+msgstr "최근 포스트"
 
 msgid "Enable forum points feature in extension configuration page"
 msgstr ""
@@ -3748,7 +3769,7 @@ msgid "Configure how your popup window will look like"
 msgstr "팝업 창 모양 설정"
 
 msgid "Theme color"
-msgstr ""
+msgstr "테마 색상"
 
 msgid "Green"
 msgstr "녹색"
@@ -3790,7 +3811,7 @@ msgid "Show values of custom form before checkout"
 msgstr ""
 
 msgid "User input will be shown before checkout for custom form"
-msgstr ""
+msgstr "사용자 입력이 커스텀 폼 결제 전에 보일 것입니다"
 
 msgid "Order Button code"
 msgstr ""
@@ -3799,7 +3820,7 @@ msgid "Clicking on html element with classname or ID"
 msgstr ""
 
 msgid "will open popup window for"
-msgstr ""
+msgstr "팝업 창을 열 것입니다"
 
 msgid "symbols"
 msgstr ""
@@ -3811,6 +3832,8 @@ msgid ""
 "You need to add ID (if you want to use it for one html element) or class (if "
 "you want to use it for multiple elements) in order for it to work"
 msgstr ""
+"작동시키려면 ID(단 하나의 HTML 엘레멘트만을 위해)나 클래스(여러 엘레멘트를 위"
+"해)를 추가하여야 합니다"
 
 msgid ""
 "Add order-button class to your elements which must call popup. For example: "
@@ -3831,7 +3854,7 @@ msgid "Copy this code to your website"
 msgstr "이 코드를 당신의 웹사이트로 복사하세요"
 
 msgid "Try your popup"
-msgstr ""
+msgstr "팝업을 시험해보세요"
 
 msgid "It must start with dot(.) if it is classname or with a hashtag(#)"
 msgstr ""
@@ -3862,10 +3885,10 @@ msgid "email settings."
 msgstr ""
 
 msgid "To"
-msgstr ""
+msgstr "수신"
 
 msgid "From"
-msgstr ""
+msgstr "보냄"
 
 msgid "Node / ID / VMID"
 msgstr ""
@@ -3910,7 +3933,7 @@ msgid "New hostname"
 msgstr "새 호스트 이름"
 
 msgid "Change plan"
-msgstr ""
+msgstr "플랜 변경"
 
 msgid "New plan"
 msgstr "새 플랜"
@@ -3919,13 +3942,13 @@ msgid "Rebuild"
 msgstr ""
 
 msgid "Usage statistics"
-msgstr ""
+msgstr "사용량 통계"
 
 msgid "Used"
-msgstr ""
+msgstr "사용됨"
 
 msgid "Free"
-msgstr ""
+msgstr "무료"
 
 msgid "Memory"
 msgstr ""
@@ -3934,7 +3957,7 @@ msgid "Disk usage"
 msgstr ""
 
 msgid "Traffic"
-msgstr ""
+msgstr "트래픽"
 
 msgid "Load"
 msgstr ""
@@ -3951,7 +3974,7 @@ msgid "Changing settings does not send actions to SolusVM server."
 msgstr ""
 
 msgid "Template"
-msgstr ""
+msgstr "템플릿"
 
 msgid "Main IP address"
 msgstr ""
@@ -4007,25 +4030,25 @@ msgid "License details"
 msgstr "라이센스 상세"
 
 msgid "Valid IPs"
-msgstr ""
+msgstr "유효한 IP"
 
 msgid "All ips"
 msgstr "모든 아이피"
 
 msgid "Valid Domains"
-msgstr ""
+msgstr "유효한 도메인"
 
 msgid "All hosts"
 msgstr "모든 호스트"
 
 msgid "Valid Versions"
-msgstr ""
+msgstr "유효한 버전"
 
 msgid "All versions"
 msgstr "모든 버전"
 
 msgid "Valid Install paths"
-msgstr ""
+msgstr "유효한 설치 경로"
 
 msgid "All paths"
 msgstr "모든 경로"
@@ -4034,7 +4057,7 @@ msgid "Reset license"
 msgstr ""
 
 msgid "You can reset your license parameters if you have changed your server"
-msgstr ""
+msgstr "서버를 변경하셨다면 라이센스 파라미터를 초기화할 수 있습니다"
 
 msgid "Reset"
 msgstr ""
@@ -4090,7 +4113,7 @@ msgid "options"
 msgstr ""
 
 msgid "Value"
-msgstr ""
+msgstr "값"
 
 msgid "+ Add new option"
 msgstr "+ 새 옵션 추가"
@@ -4114,7 +4137,7 @@ msgid "Append text"
 msgstr ""
 
 msgid "Textarea size"
-msgstr ""
+msgstr "Textarea 크기"
 
 msgid "px"
 msgstr ""
@@ -4141,13 +4164,13 @@ msgid "License key"
 msgstr "라이센스 키"
 
 msgid "Valid hostnames"
-msgstr ""
+msgstr "유효한 호스트 이름"
 
 msgid "Valid versions"
-msgstr ""
+msgstr "유효한 버전"
 
 msgid "Valid install paths"
-msgstr ""
+msgstr "유효한 설치 경로"
 
 msgid "Order is not activated or not found"
 msgstr ""
@@ -4204,16 +4227,16 @@ msgid "Discount:"
 msgstr ""
 
 msgid "VAT"
-msgstr ""
+msgstr "부가세"
 
 msgid "Total:"
-msgstr ""
+msgstr "총계: "
 
 msgid "Pay by"
 msgstr "지불 방법"
 
 msgid "Total amount will be deducted from account balance"
-msgstr ""
+msgstr "총액은 계정 잔고에서 공제될 것입니다"
 
 msgid "Checkout"
 msgstr "결졔"
@@ -4273,6 +4296,8 @@ msgid ""
 "This staff member is used by BoxBilling to perform system tasks and can not "
 "be removed."
 msgstr ""
+"이 스태프 회원은 박스빌링에 의해 시스템 작업을 수행하도록 지정되어 있으므로 "
+"제거할 수 없습니다."
 
 msgid "Permissions"
 msgstr "권한"
@@ -4281,7 +4306,7 @@ msgid "Manage staff member details"
 msgstr ""
 
 msgid "This staff member updated."
-msgstr ""
+msgstr "이 스태프 회원이 갱신되었습니다."
 
 msgid "%member_name% permissions"
 msgstr "%member_name% 권한"
@@ -4305,7 +4330,7 @@ msgid "Repeat same password"
 msgstr ""
 
 msgid "Submit"
-msgstr ""
+msgstr "제출"
 
 msgid "Api key is used to manage system via other interfaces."
 msgstr ""
@@ -4338,7 +4363,7 @@ msgid "On"
 msgstr ""
 
 msgid "Weekly"
-msgstr ""
+msgstr "주간"
 
 msgid "Monthly"
 msgstr ""
@@ -4356,10 +4381,10 @@ msgid "Connection port"
 msgstr "연결 포트"
 
 msgid "Update and test connection"
-msgstr ""
+msgstr "갱신하고 연결 테스트"
 
 msgid "Update server"
-msgstr ""
+msgstr "서버 갱신"
 
 msgid "Hosting settings"
 msgstr ""
@@ -4371,10 +4396,10 @@ msgid "Reseller hosting"
 msgstr ""
 
 msgid "Free domain registration"
-msgstr ""
+msgstr "무료 도메인 등록"
 
 msgid "Free domain transfer"
-msgstr ""
+msgstr "무료 도메인 전환"
 
 msgid "Payments history"
 msgstr "지불 이력"
@@ -4431,9 +4456,10 @@ msgid ""
 "to learn how to install files that will transform BoxBilling so it displays "
 "in your language."
 msgstr ""
+"박스빌링을 당신의 언어로 보일 수 있도록 파일을 설치하는 방법을 알아보세요"
 
 msgid "Translations can be made with"
-msgstr ""
+msgstr "거래내역을 다음으로 만들 수 있음: "
 
 msgid "software"
 msgstr ""
@@ -4453,24 +4479,24 @@ msgid ""
 msgstr ""
 
 msgid "Thank you"
-msgstr ""
+msgstr "감사합니다"
 
 msgid ""
 "Your payment is being processed right now. It can take up 5 minutes to "
 "complete."
-msgstr ""
+msgstr "지불이 지금 진행 중입니다. 5분 정도 시간이 걸릴 수 있습니다."
 
 msgid "Payment for invoice received"
 msgstr ""
 
 msgid "You will be automatically redirected to invoice page after 5 minutes."
-msgstr ""
+msgstr "5분 후 자동으로 송장 페이지로 이동할 것입니다."
 
 msgid "Product Configuration"
-msgstr ""
+msgstr "상품 설정"
 
 msgid "FREE"
-msgstr ""
+msgstr "무료"
 
 msgid "New Addon"
 msgstr "새 애드온"
@@ -4515,13 +4541,13 @@ msgid "Public tickets"
 msgstr ""
 
 msgid "Ticket ID"
-msgstr ""
+msgstr "티켓 ID"
 
 msgid "Author"
 msgstr ""
 
 msgid "Time opened"
-msgstr ""
+msgstr "시간 열림"
 
 msgid "Last updated"
 msgstr "마지막 업데이트"
@@ -4584,7 +4610,7 @@ msgid "Do not show form title"
 msgstr ""
 
 msgid "Text"
-msgstr ""
+msgstr "텍스트"
 
 msgid "Dropdown"
 msgstr ""
@@ -4596,16 +4622,16 @@ msgid "Checkbox"
 msgstr ""
 
 msgid "Textarea"
-msgstr ""
+msgstr "Textarea"
 
 msgid "Form options were updated"
 msgstr ""
 
 msgid "Select Product"
-msgstr ""
+msgstr "상품을 선택"
 
 msgid "Items"
-msgstr ""
+msgstr "아이템"
 
 msgid "Choose products we offer for selling"
 msgstr ""
@@ -4617,7 +4643,7 @@ msgid "Host subdomain"
 msgstr ""
 
 msgid "subdomain"
-msgstr ""
+msgstr "서브도메인"
 
 msgid "Host domain"
 msgstr ""
@@ -4635,10 +4661,10 @@ msgid "Resend"
 msgstr ""
 
 msgid "Variables"
-msgstr ""
+msgstr "변수들"
 
 msgid "Template Settings"
-msgstr ""
+msgstr "템플릿 설정"
 
 msgid "Reset template"
 msgstr ""
@@ -4657,7 +4683,7 @@ msgid ""
 msgstr ""
 
 msgid "Template updated"
-msgstr ""
+msgstr "템플릿 업데이트 됨"
 
 msgid "Preview"
 msgstr ""
@@ -4666,7 +4692,7 @@ msgid "Preview mode is disabled until first event occurrence"
 msgstr ""
 
 msgid "Template settings"
-msgstr ""
+msgstr "템플릿 설정"
 
 msgid "Enable or disable this email template."
 msgstr ""
@@ -4678,15 +4704,17 @@ msgid ""
 "These values will change when real email is sent. You can pass these "
 "variables to admin or guest API to get additional information from database."
 msgstr ""
+"이 값들은 실제 이메일 발송될 때 변경될 것입니다. 데이터베이스로부터 추가 정보"
+"를 얻기 위해 관리자, 혹은 손님 API에 이 변수를 넘겨 줄 수 있습니다."
 
 msgid "Variable"
-msgstr ""
+msgstr "변수"
 
 msgid "Example value"
 msgstr ""
 
 msgid "This template does not receive any parameters"
-msgstr ""
+msgstr "이 템플릿은 어떤 파라미터도 받지 않습니다"
 
 msgid "Reset email template to default"
 msgstr ""
@@ -4714,7 +4742,7 @@ msgid "Years"
 msgstr "년간"
 
 msgid "Transfer domain"
-msgstr ""
+msgstr "도메인 전환"
 
 msgid "Domain name to transfer"
 msgstr ""
@@ -4723,7 +4751,7 @@ msgid "Domain transfer code"
 msgstr ""
 
 msgid "Themes"
-msgstr ""
+msgstr "테마"
 
 msgid "Client area themes"
 msgstr "클라이언트 영역 테마"
@@ -4738,31 +4766,31 @@ msgid "Priority"
 msgstr ""
 
 msgid "Update priority"
-msgstr ""
+msgstr "우선순위 갱신"
 
 msgid "Icon URL"
 msgstr "아이콘 URL"
 
 msgid "Support tickets"
-msgstr ""
+msgstr "지원 티켓"
 
 msgid "Need an answer? We are here to help!"
-msgstr ""
+msgstr "궁금한 점이 있으신가요? 여기에 문의하세요!"
 
 msgid "Submit new ticket"
-msgstr ""
+msgstr "새 티켓 제출"
 
 msgid "View"
-msgstr ""
+msgstr "보기"
 
 msgid "Submit new support ticket"
-msgstr ""
+msgstr "새 지원 티켓 제출"
 
 msgid "Queues"
 msgstr ""
 
 msgid "The list is empty."
-msgstr ""
+msgstr "목록이 없습니다."
 
 msgid "SpamChecker settings"
 msgstr ""
@@ -4879,7 +4907,7 @@ msgid ""
 msgstr ""
 
 msgid "Unlock"
-msgstr ""
+msgstr "해제"
 
 msgid "Lock"
 msgstr ""
@@ -4902,7 +4930,7 @@ msgid "Enable Privacy protection"
 msgstr ""
 
 msgid "Update Nameservers"
-msgstr ""
+msgstr "네임서버 갱신"
 
 msgid ""
 "If you would like to host this domain with another company you can update "
@@ -4910,7 +4938,7 @@ msgid ""
 msgstr ""
 
 msgid "Update domain contact details"
-msgstr ""
+msgstr "도메인 연결 세부 내역 갱신"
 
 msgid ""
 "Domain contact details will be displayed once someone will check WHOIS "
@@ -4961,30 +4989,31 @@ msgid "Apply changes"
 msgstr "적용"
 
 msgid "Profile details"
-msgstr ""
+msgstr "프로필 상세"
 
 msgid "User profile settings"
-msgstr ""
+msgstr "사용자 프로필 설정"
 
 msgid "Change Password"
 msgstr "비밀번호 변경"
 
 msgid "Update details"
-msgstr ""
+msgstr "세부 내역 갱신"
 
 msgid "Keep your personal data up to date."
 msgstr ""
 
 msgid "Please register with"
-msgstr ""
+msgstr " "
 
 msgid "at "
-msgstr ""
+msgstr " 이메일 주소의 프로필 이미지를 "
 
 msgid ""
 "to change your profile image. Gravatar image updates may not appear "
 "immediately."
 msgstr ""
+"에서 변경하세요. 그라바타 이미지 갱신은 즉시 나타나지 않을 수도 있습니다."
 
 msgid "Birth date"
 msgstr "생일"
@@ -5005,10 +5034,10 @@ msgid "Please enter new password two times in order avoid mistypes"
 msgstr ""
 
 msgid "Update password"
-msgstr ""
+msgstr "패스워드 갱신"
 
 msgid "Warning! Resetting the key will break existing applications using it!"
-msgstr ""
+msgstr "경고! 키를 재설정하면 사용 중인 모든 어플리케이션이 중단됩니다!"
 
 msgid "Your API key"
 msgstr "API 키"
@@ -5021,16 +5050,18 @@ msgid ""
 "is set, all your profile accounting will be managed in that currency and can "
 "not be changed."
 msgstr ""
+"당신의 프로필 통화는 첫 주문 후 결정됩니다. 한 번 통화가 설정되면 계정 전반에"
+"서 그 통화로 관리되며 변경될 수 없습니다."
 
 msgid "Your profile currency is"
-msgstr ""
+msgstr "당신의 프로필 통화 "
 
 msgid ""
 "Create new client profile if you want to manage your money in other currency"
 msgstr ""
 
 msgid "Ticket information"
-msgstr ""
+msgstr "티켓 정보"
 
 msgid "Close ticket"
 msgstr ""
@@ -5039,7 +5070,7 @@ msgid "by "
 msgstr "의해"
 
 msgid "Ticket was closed and cannot be reopened."
-msgstr ""
+msgstr "티켓은 닫혔으며 다시 열릴 수 없습니다."
 
 msgid "Example module settings"
 msgstr ""
@@ -5062,7 +5093,7 @@ msgid "Public Parameter title"
 msgstr ""
 
 msgid "This setting will be accessible by Guest API"
-msgstr ""
+msgstr "이 설정은 손님 API로 접근 가능합니다"
 
 msgid "Centova Cast product settings"
 msgstr ""
@@ -5074,7 +5105,7 @@ msgid "Max bitrate"
 msgstr ""
 
 msgid "Transfer limit"
-msgstr ""
+msgstr "이체한도"
 
 msgid "Autostart"
 msgstr ""
@@ -5101,7 +5132,7 @@ msgid "Company number, chamber of commerce number"
 msgstr ""
 
 msgid "VAT number"
-msgstr ""
+msgstr "부가세 번호"
 
 msgid "Bank Account number"
 msgstr ""
@@ -5201,13 +5232,13 @@ msgid "Currently uploaded file"
 msgstr ""
 
 msgid "Upload new file"
-msgstr ""
+msgstr "새 파일 업로드"
 
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 msgid "Select product"
-msgstr ""
+msgstr "상품 선택"
 
 msgid "Configure"
 msgstr "설정"
@@ -5219,7 +5250,7 @@ msgid "Extensions"
 msgstr "확장"
 
 msgid "Update BoxBilling"
-msgstr ""
+msgstr "박스빌링 업데이트"
 
 msgid "Learn more about extensions"
 msgstr ""
@@ -5303,7 +5334,7 @@ msgid "Minimum amount for add funds invoice"
 msgstr ""
 
 msgid "Unlimited"
-msgstr ""
+msgstr "무제한"
 
 msgid "Maximum amount for add funds invoice"
 msgstr ""
@@ -5321,6 +5352,7 @@ msgid ""
 "This guide will help you to get started selling SolusVM virtual servers with "
 "BoxBilling."
 msgstr ""
+"이 가이드는 박스빌링으로 SolusVM 가상 서버를 판매하는 방법을 도와 드립니다."
 
 msgid "1. Configure your SolusVm server"
 msgstr "1. 당신의 SolusVM 서버를 설정하세요"
@@ -5344,6 +5376,8 @@ msgid ""
 "To create an API user login to SolusVM admin area and click Configuration > "
 "API Access from the top menu then select Add API User."
 msgstr ""
+"SolusVM 관리자 영역에 접근하기 위한 API 사용자 로그인을 만들기 위해서는 상단 "
+"메뉴의 설정 > API 접근에서 API 사용자 추가를 선택하세요."
 
 msgid "Master server IP"
 msgstr ""
@@ -5358,7 +5392,7 @@ msgid "Leave blank to use default port 5353 and 5656 for secure connection"
 msgstr ""
 
 msgid "Test connection"
-msgstr ""
+msgstr "연결 확인"
 
 msgid "Cron settings"
 msgstr ""
@@ -5373,10 +5407,10 @@ msgid ""
 msgstr ""
 
 msgid "Timezone"
-msgstr ""
+msgstr "시간대"
 
 msgid "Time on server"
-msgstr ""
+msgstr "서버 시간"
 
 msgid "Last time scheduled tasks were executed"
 msgstr ""
@@ -5385,7 +5419,7 @@ msgid "Scheduled tasks were never executed"
 msgstr ""
 
 msgid "Unix crontab setup:"
-msgstr ""
+msgstr "유닉스 크론탭(crontab) 설정:"
 
 msgid "Execute scheduled tasks from browser"
 msgstr ""
@@ -5400,7 +5434,7 @@ msgid "Create new redirect"
 msgstr ""
 
 msgid "Emails"
-msgstr ""
+msgstr "이메일"
 
 msgid ""
 "Here you can find all the emails we sent you. Please click on email topic in "
@@ -5408,13 +5442,13 @@ msgid ""
 msgstr ""
 
 msgid "There are no emails to display"
-msgstr ""
+msgstr "보여 줄 이메일이 없습니다"
 
 msgid "From:"
-msgstr ""
+msgstr "발신: "
 
 msgid "To:"
-msgstr ""
+msgstr "받는 사람:"
 
 msgid "Created at:"
 msgstr ""
@@ -5536,7 +5570,7 @@ msgid "Organization"
 msgstr ""
 
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 msgid "Auto rebuild list"
 msgstr ""
@@ -5579,10 +5613,10 @@ msgstr ""
 msgid ""
 "Wait time - how many hours user needs to wait until consequent ticket "
 "submission"
-msgstr ""
+msgstr "대기 시간 - 사용자가 연속으로 티켓 제출을 하기 위해 대기해야 할 시간"
 
 msgid "Wait time in hours"
-msgstr ""
+msgstr "대기 시간 (시간 단위로)"
 
 msgid "Close tickets after"
 msgstr ""
@@ -5603,7 +5637,7 @@ msgid "Order confirmation"
 msgstr ""
 
 msgid "These are the products you have selected"
-msgstr ""
+msgstr "선택하신 상품들입니다"
 
 msgid "Have a promo code?"
 msgstr ""
@@ -5624,7 +5658,7 @@ msgid "Create new profile"
 msgstr "새 프로필 생성"
 
 msgid "You have not selected any product"
-msgstr ""
+msgstr "어떤 상품도 선택하지 않으셨습니다"
 
 msgid "Order new service"
 msgstr ""
@@ -5639,10 +5673,10 @@ msgid "Send Email Message"
 msgstr ""
 
 msgid "From name"
-msgstr ""
+msgstr "발신자 이름"
 
 msgid "From email"
-msgstr ""
+msgstr "발신 이메일"
 
 msgid "Recipients filter. Select none to send message to all clients"
 msgstr ""
@@ -5654,10 +5688,10 @@ msgid "Has order"
 msgstr ""
 
 msgid "Message content"
-msgstr ""
+msgstr "메시지 내용"
 
 msgid "Update and preview"
-msgstr ""
+msgstr "미리보기와 갱신"
 
 msgid "Send test message"
 msgstr ""
@@ -5706,6 +5740,7 @@ msgstr "대체 ID"
 
 msgid "Used to identify client on foreign system. Usually used by importers"
 msgstr ""
+"다른 시스템에서 클라이언트를 식별하는 데 사용됨. 보통 가져오기에 사용됨"
 
 msgid "Exempt from tax"
 msgstr ""
@@ -5717,7 +5752,7 @@ msgid "Custom fields"
 msgstr ""
 
 msgid "Use these fields to define custom client details"
-msgstr ""
+msgstr "이 필드를 커스텀 클라이언트 상세 항목을 정의하는데 사용하세요"
 
 msgid "Client Profile custom fields updated"
 msgstr ""
@@ -5759,7 +5794,7 @@ msgid "Date sent"
 msgstr ""
 
 msgid "Transactions received"
-msgstr ""
+msgstr "접수된 거래내역 "
 
 msgid "Hi,"
 msgstr "안녕하세요, "
@@ -5771,7 +5806,7 @@ msgid "All settings"
 msgstr "모든 설정"
 
 msgid "Theme settings"
-msgstr ""
+msgstr "테마 설정"
 
 msgid "Visit site"
 msgstr "사이트 보기"
@@ -5789,7 +5824,7 @@ msgid "Registrar title"
 msgstr ""
 
 msgid "Service details"
-msgstr ""
+msgstr "서비스 상세"
 
 msgid "All information about your service"
 msgstr "당신의 서비스에 관한 모든 정보"
@@ -5855,7 +5890,7 @@ msgid "I would like to upgrade"
 msgstr ""
 
 msgid "Upgrade to"
-msgstr ""
+msgstr "업그레이드 "
 
 msgid "Request"
 msgstr ""
@@ -5867,7 +5902,7 @@ msgid "Read before importing servers"
 msgstr ""
 
 msgid "VServer ID"
-msgstr ""
+msgstr "VServer ID"
 
 msgid "Client ID"
 msgstr "클라이언트 ID"
@@ -5876,7 +5911,7 @@ msgid "Import selected SolusVM virtual server to BoxBilling"
 msgstr ""
 
 msgid "Vps hostname"
-msgstr ""
+msgstr "VPS 호스트 이름"
 
 msgid "mydomain.com"
 msgstr ""
@@ -5918,7 +5953,6 @@ msgstr ""
 msgid "Suspension reasons"
 msgstr ""
 
-#, fuzzy
 msgid "Payment"
 msgstr "지불"
 
@@ -5935,7 +5969,7 @@ msgid "Promo code was applied for your order"
 msgstr ""
 
 msgid "YouHosting specifict settings"
-msgstr ""
+msgstr "YouHosting 상세 설정"
 
 msgid "Invoice number"
 msgstr ""
@@ -5968,7 +6002,7 @@ msgid "Related to"
 msgstr ""
 
 msgid "Service #"
-msgstr ""
+msgstr "서비스 #"
 
 msgid "Last tickets"
 msgstr ""
@@ -5989,7 +6023,7 @@ msgid "New announcement"
 msgstr "새로운 소식"
 
 msgid "Product configuration"
-msgstr ""
+msgstr "상품 설정"
 
 msgid "General settings"
 msgstr "일반 설정"
@@ -5998,7 +6032,7 @@ msgid "Configuration"
 msgstr "설정"
 
 msgid "Upgrades"
-msgstr ""
+msgstr "업그레이드"
 
 msgid "Links"
 msgstr ""
@@ -6037,7 +6071,7 @@ msgid "Product links"
 msgstr ""
 
 msgid "Product ID"
-msgstr ""
+msgstr "상품 ID"
 
 msgid "Order page with ID"
 msgstr ""
@@ -6046,7 +6080,7 @@ msgid "Order page with slug"
 msgstr ""
 
 msgid "View as client<"
-msgstr ""
+msgstr "클라이언트로 보기"
 
 msgid "Article updated"
 msgstr ""
@@ -6079,7 +6113,7 @@ msgid "Server manager specific parameters"
 msgstr ""
 
 msgid "Update hosting plan"
-msgstr ""
+msgstr "호스팅 플랜 갱신"
 
 msgid "Hosting plan additional parameters"
 msgstr ""
@@ -6109,7 +6143,7 @@ msgid "Select currency"
 msgstr ""
 
 msgid "Top level domain management"
-msgstr ""
+msgstr "최상위 도메인 관리"
 
 msgid "Something went wrong here"
 msgstr ""
@@ -6127,7 +6161,7 @@ msgid "Proforma invoice"
 msgstr ""
 
 msgid "Payment methods"
-msgstr ""
+msgstr "지불 방법"
 
 msgid "Please choose payment type and pay for your chosen products."
 msgstr ""
@@ -6139,6 +6173,7 @@ msgid ""
 "You can print this invoice or export it to PDF file by clicking on "
 "corresponding button."
 msgstr ""
+"해당 버튼을 클릭하여 송장을 출력하거나 PDF 파일로 내보내기 할 수 있습니다."
 
 msgid "PDF"
 msgstr "PDF"
@@ -6165,10 +6200,10 @@ msgid "About us"
 msgstr "소개"
 
 msgid "Tickets waiting for staff reply"
-msgstr ""
+msgstr "티켓이 스태프의 응답을 기다리고 있습니다"
 
 msgid "Tickets waiting for client reply"
-msgstr ""
+msgstr "티켓이 클라이언트의 응답을 기다리고 있습니다"
 
 msgid "Solved tickets"
 msgstr ""
@@ -6293,7 +6328,7 @@ msgid ""
 msgstr ""
 
 msgid "WebMoney IPN is not valid"
-msgstr ""
+msgstr "WebMoney IPN이 유효하지 않음"
 
 msgid ""
 "Payment gateway \"WebToPay\" is not configured properly. Please update "
@@ -6306,7 +6341,7 @@ msgid ""
 msgstr ""
 
 msgid "WebToPay payment gateway do not support recurrent payments"
-msgstr ""
+msgstr "WebToPay 지불 게이트웨이는 주기적 지불을 지원하지 않습니다"
 
 msgid "Return URL for payment gateway was not set"
 msgstr ""
